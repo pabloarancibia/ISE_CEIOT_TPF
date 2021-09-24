@@ -1,0 +1,351 @@
+[
+    {
+        "module": "[lib]/c_w.l",
+        "size": {
+            ".text": 22309,
+            ".data": 16,
+            ".bss": 460,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "[lib]/fz_wm.l",
+        "size": {
+            ".text": 3042,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "[lib]/libcpp_w.l",
+        "size": {
+            ".text": 66862,
+            ".data": 0,
+            ".bss": 2961,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "[lib]/libcppabi_w.l",
+        "size": {
+            ".text": 2615,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "[lib]/m_wm.l",
+        "size": {
+            ".text": 794,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "anon$$obj.o",
+        "size": {
+            ".text": 32,
+            ".data": 0,
+            ".bss": 1280,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "main.o",
+        "size": {
+            ".text": 10,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/components",
+        "size": {
+            ".text": 533,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/drivers",
+        "size": {
+            ".text": 3083,
+            ".data": 0,
+            ".bss": 84,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/events",
+        "size": {
+            ".text": 1944,
+            ".data": 0,
+            ".bss": 3108,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/features",
+        "size": {
+            ".text": 2729,
+            ".data": 0,
+            ".bss": 12724,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/hal",
+        "size": {
+            ".text": 2246,
+            ".data": 4,
+            ".bss": 66,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/platform",
+        "size": {
+            ".text": 8454,
+            ".data": 80,
+            ".bss": 333,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/rtos",
+        "size": {
+            ".text": 13721,
+            ".data": 168,
+            ".bss": 6762,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "mbed-os/targets",
+        "size": {
+            ".text": 23211,
+            ".data": 5,
+            ".bss": 1301,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "modules/code",
+        "size": {
+            ".text": 308,
+            ".data": 4,
+            ".bss": 4,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "modules/countdown",
+        "size": {
+            ".text": 234,
+            ".data": 0,
+            ".bss": 9,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "modules/date_and_time",
+        "size": {
+            ".text": 68,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "modules/display",
+        "size": {
+            ".text": 1302,
+            ".data": 0,
+            ".bss": 502,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "modules/event_log",
+        "size": {
+            ".text": 619,
+            ".data": 0,
+            ".bss": 2011,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "modules/fire_alarm",
+        "size": {
+            ".text": 498,
+            ".data": 0,
+            ".bss": 33,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "modules/gas_sensor",
+        "size": {
+            ".text": 56,
+            ".data": 0,
+            ".bss": 28,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "modules/intruder_alarm",
+        "size": {
+            ".text": 84,
+            ".data": 0,
+            ".bss": 2,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "modules/matrix_keypad",
+        "size": {
+            ".text": 476,
+            ".data": 0,
+            ".bss": 234,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "modules/motion_sensor",
+        "size": {
+            ".text": 500,
+            ".data": 0,
+            ".bss": 82,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "modules/pc_serial_com",
+        "size": {
+            ".text": 2901,
+            ".data": 0,
+            ".bss": 254,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "modules/siren",
+        "size": {
+            ".text": 154,
+            ".data": 0,
+            ".bss": 33,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "modules/smart_home_system",
+        "size": {
+            ".text": 50,
+            ".data": 0,
+            ".bss": 0,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "modules/strobe_light",
+        "size": {
+            ".text": 134,
+            ".data": 0,
+            ".bss": 33,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "modules/temperature_sensor",
+        "size": {
+            ".text": 330,
+            ".data": 0,
+            ".bss": 128,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "modules/user_interface",
+        "size": {
+            ".text": 772,
+            ".data": 0,
+            ".bss": 75,
+            ".text-delta": -4,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "summary": {
+            "static_ram": 32784,
+            "static_ram_delta": 0,
+            "total_flash": 160348,
+            "total_flash_delta": -4
+        }
+    }
+]
