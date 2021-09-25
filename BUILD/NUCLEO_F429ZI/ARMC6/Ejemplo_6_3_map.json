@@ -90,7 +90,7 @@
     {
         "module": "mbed-os/drivers",
         "size": {
-            ".text": 3083,
+            ".text": 3113,
             ".data": 0,
             ".bss": 84,
             ".text-delta": 0,
@@ -222,7 +222,7 @@
     {
         "module": "modules/fire_alarm",
         "size": {
-            ".text": 498,
+            ".text": 528,
             ".data": 0,
             ".bss": 33,
             ".text-delta": 0,
@@ -269,6 +269,17 @@
             ".text": 500,
             ".data": 0,
             ".bss": 82,
+            ".text-delta": 0,
+            ".data-delta": 0,
+            ".bss-delta": 0
+        }
+    },
+    {
+        "module": "modules/motor",
+        "size": {
+            ".text": 420,
+            ".data": 0,
+            ".bss": 63,
             ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
@@ -335,17 +346,17 @@
             ".text": 772,
             ".data": 0,
             ".bss": 75,
-            ".text-delta": -4,
+            ".text-delta": 0,
             ".data-delta": 0,
             ".bss-delta": 0
         }
     },
     {
         "summary": {
-            "static_ram": 32784,
+            "static_ram": 32847,
             "static_ram_delta": 0,
-            "total_flash": 160348,
-            "total_flash_delta": -4
+            "total_flash": 160828,
+            "total_flash_delta": 0
         }
     }
 ]

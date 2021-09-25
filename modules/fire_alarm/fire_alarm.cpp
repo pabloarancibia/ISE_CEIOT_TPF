@@ -15,13 +15,14 @@
 #include "matrix_keypad.h"
 
 #include "countdown.h"
+#include "motor.h"
 
 //=====[Declaration of private defines]======================================
 
 #define MAX_TIME_ALONE_SEC     15.0
 
 
-#define TEMPERATURE_C_LIMIT_ALARM     50.0
+#define TEMPERATURE_C_LIMIT_ALARM     100.0
 #define STROBE_TIME_GAS               1000
 #define STROBE_TIME_OVER_TEMP          500
 #define STROBE_TIME_GAS_AND_OVER_TEMP  100
@@ -63,7 +64,9 @@ void fireAlarmInit()
     temperatureSensorInit();
     gasSensorInit();
     sirenInit();
-    strobeLightInit();	
+    strobeLightInit();
+
+    motorControlInit();
 	
 	alarmTestButton.mode(PullDown); 
 }
@@ -74,6 +77,8 @@ void fireAlarmUpdate()
     fireAlarmDeactivationUpdate();
     sirenUpdate( fireAlarmStrobeTime() );
     strobeLightUpdate( fireAlarmStrobeTime() );	
+
+    motorControlUpdate();
 }
 
 bool gasDetectorStateRead()
@@ -113,6 +118,8 @@ static void fireAlarmActivationUpdate()
         overTemperatureDetected = ON;
         sirenStateWrite(ON);
         strobeLightStateWrite(ON);
+        motorDirectionWrite(DIRECTION_1);
+
     }
 
     gasDetectorState = !gasSensorRead();
@@ -121,6 +128,7 @@ static void fireAlarmActivationUpdate()
         gasDetected = ON;
         sirenStateWrite(ON);
         strobeLightStateWrite(ON);
+        motorDirectionWrite(DIRECTION_1);
     }
 	
     if( alarmTestButton ) {             
@@ -128,6 +136,8 @@ static void fireAlarmActivationUpdate()
         gasDetected = ON;
         sirenStateWrite(ON);
         strobeLightStateWrite(ON);
+        motorDirectionWrite(DIRECTION_1);
+
     }
 }
 
@@ -145,9 +155,12 @@ static void fireAlarmDeactivate()
 {
     sirenStateWrite(OFF);
 	strobeLightStateWrite(OFF);
+    motorDirectionWrite(STOPPED);
     overTemperatureDetected = OFF;
     gasDetected             = OFF; 
-    maxTimeCountdownExceeds = OFF;   
+    maxTimeCountdownExceeds = OFF;
+    
+
 }
 
 static int fireAlarmStrobeTime()

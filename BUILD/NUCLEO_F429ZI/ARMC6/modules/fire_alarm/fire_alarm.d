@@ -221,4 +221,4 @@ BUILD/NUCLEO_F429ZI/ARMC6/modules/fire_alarm/fire_alarm.o: \
   modules/date_and_time/date_and_time.h \
   modules/temperature_sensor/temperature_sensor.h \
   modules/gas_sensor/gas_sensor.h modules/matrix_keypad/matrix_keypad.h \
-  modules/countdown/countdown.h
+  modules/countdown/countdown.h modules/motor/motor.h
